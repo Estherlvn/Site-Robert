@@ -1,0 +1,217 @@
+.parallax {
+    background-image: url('https://s3-alpha-sig.figma.com/img/e4ed/5f60/5d46de358dee6200f192fc1caa7f5693?Expires=1719187200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KmhhV7zgpodz7ysuwv-7TublY0TZcwRMA5y5mWAsV-nml9k7yO3BJB-wrEMLEBVMww7HEqRnZbfpfrsQmm1f-DFOBk0FLmHp2PhAbZtOQC-wD4B8ZayUJqY9sLVq512DzMzkIau82fus~5wca2TYle7VHROxDN-QabpuBb636gdja0F8tuXl2F7pLloOjePulXyKBo0pR5f7uRxCcmkjE~LQ32UwoIyDtgCcBB07gOPLR3rx4JGdIcL8GhtULBXpo2yutiJeULK4PdtvAuxSn53c0uejqHale8Z20UCu~8zm35dkDEthSLSYMlN85YmVfatC1xBG5zoWTw6IqeZ4hg__');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    min-height: 60vh; /* adjust the height to your needs */
+  }
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px; /* Ajoute un espace pour le bouton en dessous */
+    padding-top: 20px;
+}
+
+#services {
+    padding-bottom: 40px; /* Ajoute un espace pour le bouton en dessous */
+    padding-top: 20px;
+    background-color: #00AA11;
+    color: white;
+}
+
+#services h2 {
+    margin-left: 130px;
+}
+
+.slick-slide {
+    background-color: #007C0C;
+    box-shadow: -4px 4px 8px rgba(0, 0, 0, 0.2), 4px 4px 8px rgba(0, 0, 0, 0.2); /* Ombre à gauche et en bas */
+    text-align: center;
+    width: 300px; /* Largeur de chaque image */
+    margin-right: 20px; /* Marge entre chaque image */
+}
+
+.slick-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+#produits {
+    padding-top: 80px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+#produits h3 {
+    font-weight: lighter;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+
+.carousel-item {
+    padding-top: 30px;
+    flex: 0 0 33.33%; /* Chaque image occupe 33.33% de l'espace disponible */
+    max-width: 33.33%;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto; /* Garde le ratio d'aspect */
+    display: block;
+}
+
+#a-propos {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 80px;
+    padding-right: 80px;
+    background-color: #00AA11;
+    color: white
+}
+
+#a-propos h3 {
+    font-weight: lighter;
+}
+
+
+.section-equipe {
+    display: flex;
+    padding: 4% 8% 8% 8%;
+    align-items: flex-start; /* Aligne les éléments en haut */
+}
+
+.text-section {
+    flex: 1; /* Laisse le texte prendre tout l'espace disponible */
+    padding-right: 5%; /* Ajoute un espacement à droite du texte */
+    display: flex;
+    flex-direction: column;
+}
+
+.image-section {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end; /* Place l'image à droite */
+}
+
+.image-section img {
+    max-width: 100%; /* Empêche l'image de dépasser de son conteneur */
+    height: auto;
+}
+
+h3, h4 {
+    margin: 2% 0 2% 0; /* Espace entre les titres et les sous-titres */
+}
+
+h4 {
+    font-weight: lighter;
+}
+
+
+#boutonD {
+    font-family: Poppins;
+    background-color: #00AA11; /* Couleur de fond */
+    color: white; /* Couleur du texte */
+    padding: 5px 30px; /* Réduire l'espacement intérieur dans le sens vertical */
+    border: none; /* Pas de bordure */
+    border-radius: 20px; /* Coins arrondis */
+    cursor: pointer; /* Curseur de la souris */
+    font-size: 16px; /* Taille de la police augmentée */
+    transition: background-color 0.3s; /* Transition pour l'effet de survol */
+    display: block; /* Affichage en bloc */
+    text-align: center; /* Centrer le texte */
+    margin: 20px auto 0 ; /* Centrer le bouton et ajouter de l'espace au-dessus */
+    box-shadow: -4px 4px 8px rgba(0, 0, 0, 0.2), 4px 4px 8px rgba(0, 0, 0, 0.2); /* Ombre à gauche et en bas */
+}
+
+#boutonD:hover {
+    background-color: #ccddcc; /* Couleur de fond au survol */
+}
+
+.ligne {
+    border-top: 3px solid #00AA11;
+    border-radius: 10px;
+    width: 80%;
+}
+
+.statistiques h2 {
+    margin: 5% 0 5% 25%;
+}
+
+.chiffres {
+    display: flex;
+    flex-direction: row;
+    gap: 10%; /* ajoute un espace de 20px entre les éléments */
+    margin-left: 20%;
+    margin-bottom: 5%;
+  }
+
+.contact {
+    background-color: #00AA11;
+    width: 50%;
+    margin: auto;
+    padding: 5%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact h2 {
+    color: white;
+    text-align: center;
+    font-size: 200%;
+    font-weight: lighter;
+}
+
+.contact h3 {
+    color: white;
+    text-align: center;
+    padding-bottom: 10%;
+    font-weight: lighter;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    display: flex; /* Utilisation de flexbox pour aligner les éléments sur la même ligne */
+    align-items: center; /* Centrage vertical des éléments */
+}
+
+.form-group label {
+    color: white;
+    width: 120px; /* Largeur fixe pour le label */
+    flex-shrink: 0; /* Empêche le rétrécissement du label */
+}
+
+.form-group input,
+.form-group textarea {
+    flex: 1; /* Les champs occupent tout l'espace restant */
+    padding: 10px;
+    border: none;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+button[type="submit"] {
+    background-color: #fff;
+    color: #00AA11;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-left: 50%;
+}
+
+
+button[type="submit"]:hover {
+    background-color: #f0f0f0;
+}
+
+    .bouton:hover {
+        background-color: #ccddcc; /* Couleur de fond au survol */
+    }

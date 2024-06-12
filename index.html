@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap">
+    <title>Page d'accueil</title>
+    <link rel="stylesheet" href="fichier.css">
+    <link rel="stylesheet" href="accueil.css">
+</head>
+<body>
+    <header>
+        <a href="accueil.html" class="logo-link">
+            <div class="logo">
+                <h1>REPAIR</h1>
+            </div>
+        </a>
+
+        <div class="search-bar">
+            <input type="text" placeholder="Rechercher...">
+        </div>
+        <nav>
+            <a href="services.html">Services</a> <!-- Redirection vers la page "Services" -->
+            <a href="#produits">Produits</a>
+            <a href="#a-propos">À propos</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    
+<div class="parallax">
+    <div class="bandeau">
+        <div class="logo">
+                <h1>REPAIR</h1>
+        </div>
+    </div>
+</div>
+
+    <div class="container">
+
+        <section id="services">
+            <h2>Quels sont vos besoins?</h2>
+                <div class="carousel">
+                    <div class="slick-slide">
+                        <h3>Tutos Brico</h3>
+                        <img src="https://www.moncoachbrico.com/wp-content/uploads/2021/08/electromenager-remplacement-reparation-1024x683.webp" alt="Image 1">
+                    </div>
+                    <div class="slick-slide">
+                        <h3>Réparation</h3>
+                        <img src="https://reparateur-electromenager-grenoble.fr/wp-content/uploads/2023/11/dishwasher-repair-guide-4154049-hero-2f244005487a4660a857a1af1b840d33-3.jpg" alt="Image 2">
+                    </div>
+                    <div class="slick-slide">
+                        <h3>Recyclage</h3>
+                        <img src="https://img.20mn.fr/kQjU038aSyOjjNBk69M-gg/1200x768_fdsf" alt="Image 3">
+                    </div>
+                </div>
+                <button class="bouton">En savoir plus</button>
+        </section>
+
+        <section id="produits">
+            <h2>Des produits de seconde main</h2>
+            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliquaLorem ipsumLorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+            <div class="carousel-container">
+                <div class="carousel">
+                    <div class="carousel-item">
+                        <img src="https://boulanger.scene7.com/is/image/Boulanger/7333394011493_h_f_l_0?wid=500&hei=500" alt="Lave-Linge">
+                        <button class="bouton" onclick="imageButtonClick(1)">Consulter</button>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://www.riviera-et-bar.fr/329-pdt_540/expresso-compacte.jpg" alt="Cafetière">
+                        <button class="bouton" onclick="imageButtonClick(2)">Consulter</button>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://raja.scene7.com/is/image/Raja/products/aspirateur-sac-philips-power-cyclone-5-1-5_150720.jpg?template=withpicto410&$image=BER_150720&$picto=NoPicto&hei=410&wid=410&fmt=jpg&qlt=85,0&resMode=sharp2&op_usm=1.75,0.3,2,0" alt="Aspirateur">
+                        <button class="bouton" onclick="imageButtonClick(3)">Consulter</button>
+                    </div>
+                    <!-- Ajoutez d'autres images ici si nécessaire -->
+                </div>
+                <button class="carousel-button prev-button" onclick="moveCarousel(-1)">&#10094;</button>
+                <button class="carousel-button next-button" onclick="moveCarousel(1)">&#10095;</button>
+            </div>
+            <script src="script.js"></script>
+        </section>
+        <div class="equipe">
+            <section id="a-propos">
+                <h2>Découvrez-en plus sur notre équipe</h2>
+                <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliquaLorem ipsumLorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+            </section>
+            <div class="section-equipe">
+                <div class="text-section">
+                    <h3>Sed ut perspiciatis</h3>
+                    <h4>Nemo enim ipsam voluptatem quia .</h4>
+                    <h3>Sed ut perspiciatis</h3>
+                    <h4>Nemo enim ipsam voluptatem quia .</h4>
+                    <h3>Sed ut perspiciatis</h3>
+                    <h4>Nemo enim ipsam voluptatem quia .</h4>
+                    <button id="boutonD">Découvrir</button>
+                </div>    
+                <div class="image-section">
+                    <img src="https://thestuffofsuccess.com/wp-content/uploads/2024/06/green-architecture-1320x880.jpg" alt="Grande Image">
+                </div>
+            </div>
+        </div>
+
+        <hr class="ligne"> <!-- Ligne de séparation -->
+
+    <div class="statistiques">
+            <h2>Quelques chiffres pour vous donner une idée</h2>
+    </div>
+
+            <div class="chiffres">
+                <div class="stat">
+                    <i class="fas fa-chart-line"></i>
+                    <h2>Titre 1</h2>
+                    <h3>Sous-titre 1</h3>
+                </div>
+                <div class="stat">
+                    <i class="fas fa-chart-pie"></i>
+                    <h2>Titre 2</h2>
+                    <h3>Sous-titre 2</h3>
+                </div>
+                <div class="stat">
+                    <i class="fas fa-chart-bar"></i>
+                    <h2>Titre 3</h2>
+                    <h3>Sous-titre 3</h3>
+                </div>
+                <div class="stat">
+                    <i class="fas fa-chart-area"></i>
+                    <h2>Titre 4</h2>
+                    <h3>Sous-titre 4</h3>
+                </div>
+            </div>
+
+        <hr class="ligne"> <!-- Ligne de séparation -->
+
+        <div class="contact">
+            <h2>Contactez-nous</h2>
+            <h3>Disponible du lundi au samedi de 9h à 19h</h3>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="nom">Nom :</label>
+                    <input type="text" id="nom" name="nom" required>
+                </div>
+                <div class="form-group">
+                    <label for="prenom">Prénom :</label>
+                    <input type="text" id="prenom" name="prenom" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Adresse mail :</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message :</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
+    </div>
+
+<footer>
+<div class="top-section"> 
+    <div class="footer-section">
+        <a href="#">Mobile App</a>
+    </div>
+    <div class="footer-section">
+        <a href="#">Community</a>
+    </div>
+    <div class="footer-section">
+        <a href="#">Company</a>
+    </div>
+    <div class="logo">
+        <h1>REPAIR</h1>
+    </div>
+    <div class="footer-section">
+        <a href="#">Help Desk</a>
+    </div>
+    <div class="footer-section">
+        <a href="#">Blog</a>
+    </div>
+    <div class="footer-section">
+        <a href="#">Ressources</a>
+    </div>
+</div>
+<hr class="separator"> <!-- Ligne de séparation -->
+<div class="bottom-section1">
+    <div class="social-icons">
+        <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+</div>
+<div class="bottom-section2">
+    <div class="crédits">
+    <p>© Photo, Inc. 2019. We love our users!</p>
+</div>
+</div>
+
+</footer>
+
+<script src="script.js"></script>
+</body>
+
+</html>
