@@ -3,7 +3,8 @@
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    min-height: 60vh; /* adjust the height to your needs */
+    width: 90%;
+    margin-left: 5%;
   }
 
 .carousel {

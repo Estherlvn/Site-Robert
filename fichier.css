@@ -5,10 +5,9 @@ body {
 }
 
 header {
-    height: 35px; /* Réduit la hauteur du header */
     background-color: #00AA11;
     color: #fff;
-    padding: 5px 20px; /* Réduit le padding du header */
+    padding: 0 20px; /* Réduit le padding du header */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -18,7 +17,7 @@ header {
     flex: 1; /* Utilisation de flex pour remplir l'espace disponible */
     display: flex;
     align-items: center;
-    margin-right: 20px; /* Réduit la marge à droite */
+    margin-left: 2%;
 }
 
 .search-bar input[type="text"] {
@@ -26,7 +25,7 @@ header {
     font-size: 16px;
     border: 1px solid #000;
     border-radius: 20px;
-    width: 100%; /* La barre de recherche prend toute la largeur */
+    min-width: 50%; /* La barre de recherche prend toute la largeur */
 }
 
 nav {
@@ -46,8 +45,6 @@ nav a:hover {
 }
 
 .bandeau {
-    width: calc(100% - 100px);
-    height: calc(90vh - 100px);
     margin: 50px;
     overflow: hidden;
     display: flex;
@@ -104,6 +101,10 @@ nav a:hover {
 .logo h1 {
     font-family: 'Racing Sans One', sans-serif;
     color: #fff;
+}
+
+.logo-link {
+    text-decoration: none;
 }
 
 .logo h1:hover {
